@@ -1,0 +1,24 @@
+{
+  "name": "dev-backend",
+  "version": "1.0.0",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js",
+    "test": "node test-local.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "API endpoint for Task",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
